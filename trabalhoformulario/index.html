@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Cadastro</h1>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="dados_cadastro.php">Dados do Cadastro</a>
+        <a href="desenvolvedores.html">Desenvolvedores</a>
+    </nav>
+    <main>
+        <h2>Bem-vindo ao sistema de cadastro!</h2>
+        <p>Preencha o formulário abaixo para se cadastrar.</p>
+        <form action="processa.php" method="post">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <input type="tel" name="telefone" placeholder="Telefone" required>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li>IFRN Campus Santa Cruz</li>
+            <li>Trabalho de Autoria Web</li>
+            <li>Prof. Marcelo Figueiredo Barbosa Júnior</li>
+            <li>Alunos: Mariana Ferreira e Miguel Alencar</li>
+        </ul>
+    </footer>
+</body>
+</html>
